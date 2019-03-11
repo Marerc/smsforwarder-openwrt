@@ -1,5 +1,6 @@
 # smsforwarder-openwrt
 a simple sms forwarder tool which can configured manmually runs in openwrt.
+
 因为smstool3不支持那些只能使用text的电信卡托，所以自己就写了一个小应用来实现短信转发。
 它默认将收到短信和未接来电保存到本机，可以通过配置邮件或者server酱id将收到的短信或者来电转发到你的微信里。
 
